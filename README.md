@@ -17,13 +17,6 @@ The main goal of this template is to speed up the setup phase of plugin developm
 [gh:template]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 <!-- Plugin description end -->
 
-<script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
-<script>
-  // Please, replace #yourelement with a real element id on your webpage
-  MarketplaceWidget.setupMarketplaceWidget('install', 23652, "#yourelement");
-</script>
-
-
 ## What is RestfulFinder?
 
 In the process of development and maintenance, interface addresses are often used to search for the corresponding implementation in the project. IDEA comes with a search function that can search any content, so it is not very friendly for people who want to search only the interface. This tool only search interface and quick jump code implementation, can bring better experience for your development!
@@ -40,6 +33,10 @@ Quick Search URL Preview
 ![searchService.png](img/searchApis.png)
 
 ## Installation
+
+<a href="https://plugins.jetbrains.com/embeddable/install/23652">
+    <img src="img/plugin-install.png" width="300"/>
+</a>
 
 - Using IDE built-in plugin system:
 
