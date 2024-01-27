@@ -26,6 +26,10 @@
 
 ## 安装
 
+<a href="https://plugins.jetbrains.com/embeddable/install/23652">
+    <img src="img/plugin-install.png" width="300"/>
+</a>
+
 - IDE 插件安装:
 
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>搜索 "
