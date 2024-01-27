@@ -17,7 +17,12 @@ The main goal of this template is to speed up the setup phase of plugin developm
 [gh:template]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 <!-- Plugin description end -->
 
-<iframe width="245px" height="48px" src="https://plugins.jetbrains.com/embeddable/install/23652"></iframe>
+<script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
+<script>
+  // Please, replace #yourelement with a real element id on your webpage
+  MarketplaceWidget.setupMarketplaceWidget('install', 23652, "#yourelement");
+</script>
+
 
 ## What is RestfulFinder?
 
