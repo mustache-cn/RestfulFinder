@@ -1,0 +1,35 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>cn.com.mustache.plugins.restful.finder</id>
+    <name>Restful Finder</name>
+    <vendor email="steven@mustache.com.cn" url="https://mustache.com.cn">Mustache</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends optional="true" config-file="java.xml">com.intellij.java</depends>
+
+    <description>
+        <![CDATA[
+        Restful Finder is a great Restful api search and quickly open and jump implementation code of Intellij IDEA toolkit. The toolkit supports Java languages,
+ Spring Framework (Spring Boot/Spring MVC).<br/>
+    ]]>
+    </description>
+
+    <!-- Extension points defined by the plugin.
+        Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <notificationGroup id="RestfulFinder Notification Group" displayType="BALLOON"/>
+    </extensions>
+
+    <actions>
+        <action id="RestfulFinder.GotoService"
+                class="cn.com.mustache.plugins.restful.finder.action.RestfulFinderAction"
+                text="_Service" description="Go to code"
+                icon="AllIcons.Actions.Search">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl BACK_SLASH"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt f"/>
+        </action>
+    </actions>
+
+</idea-plugin>

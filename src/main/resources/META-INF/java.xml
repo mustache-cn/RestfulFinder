@@ -1,0 +1,8 @@
+<idea-plugin>
+    <extensions defaultExtensionNs="com.intellij">
+
+        <projectService
+                serviceImplementation="cn.com.mustache.plugins.restful.finder.action.RestfulFilterConfiguration"/>
+    </extensions>
+
+</idea-plugin>
